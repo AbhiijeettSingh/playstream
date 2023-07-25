@@ -1,0 +1,40 @@
+.sidebar {
+  position: sticky;
+  height: 3rem;
+  top: 8rem;
+  flex: 0.15555;
+  padding: 0.5rem 0.5rem;
+}
+
+.second_row {
+  position: sticky;
+  height: 3rem;
+  top: 8rem;
+  padding: 0.5rem 0rem;
+margin-right: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media screen and (max-width:1017px) {
+
+  .second_row{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:880px){
+  .second_row{
+    display: none;
+  }
+}
+
+@media screen and (max-width:586px) {
+  
+  .second_row{
+    display: none;
+  }
+}

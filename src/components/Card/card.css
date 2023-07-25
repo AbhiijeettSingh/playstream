@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+}
+
+.cardVideoChannel{
+  /* justify-content: center; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.card > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-thumbnail {
+  height: auto;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+/* .Openthumbnail {
+  height: auto;
+  width: 100%;
+  border-radius: 1rem;
+} */
+
+.logo-with-text {
+  /* width: 35rem; */
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row !important;
+  gap: 1.5rem;
+}
+
+.VideoLogo {
+  width: 25%;
+}
+
+.VideoLogo > img{
+  width: 100%;
+  border-radius: 4rem;
+  height: auto;
+}
+
+.main-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-right: 1rem;
+  display: flex;
+  margin-bottom: 0.3rem;
+}
+
+.channel-name {
+  font-size: small;
+}
+.views-with-time {
+  font-size: small;
+}
+
+@media screen and (max-width: 586px) {
+
+
+  .VideoLogo {
+    width: 20%;
+  }
+  
+  .logo-with-text{
+    padding: 1rem 1rem;
+  }
+  
+}
